@@ -1,9 +1,9 @@
-package update
+package goappupdate
 
 import (
 	"io"
 
-	"github.com/inconshreveable/go-update/internal/binarydist"
+	"github.com/sonnt85/goappupdate/internal/binarydist"
 )
 
 // Patcher defines an interface for applying binary patches to an old item to get an updated item.

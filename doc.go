@@ -11,7 +11,7 @@ This example shows how to update a program remotely from a URL.
 		"fmt"
 		"net/http"
 
-		"github.com/inconshreveable/go-update"
+		"github.com/sonnt85/goappupdate"
 	)
 
 	func doUpdate(url string) error {
@@ -43,7 +43,7 @@ may be applied by implementing the Patcher interface.
 		"encoding/hex"
 		"io"
 
-		"github.com/inconshreveable/go-update"
+		"github.com/sonnt85/goappupdate"
 	)
 
 	func updateWithPatch(patch io.Reader) error {
@@ -76,7 +76,7 @@ specified as a hex string.
 		"encoding/hex"
 		"io"
 
-		"github.com/inconshreveable/go-update"
+		"github.com/sonnt85/goappupdate"
 	)
 
 	func updateWithChecksum(binary io.Reader, hexChecksum string) error {
@@ -113,7 +113,7 @@ with the private key and distribute the signature along with the update.
 		"encoding/hex"
 		"io"
 
-		"github.com/inconshreveable/go-update"
+		"github.com/sonnt85/goappupdate"
 	)
 
 	var publicKey = []byte(`
@@ -169,4 +169,4 @@ Updating application that are distributed as mutliple on-disk files is out of sc
 may change in future versions of this library.
 
 */
-package update
+package goappupdate

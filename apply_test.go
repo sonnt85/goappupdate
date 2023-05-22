@@ -1,4 +1,4 @@
-package update
+package goappupdate
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/inconshreveable/go-update/internal/binarydist"
+	"github.com/sonnt85/goappupdate/internal/binarydist"
 )
 
 var (

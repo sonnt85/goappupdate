@@ -1,4 +1,4 @@
-package update
+package goappupdate
 
 import (
 	"syscall"

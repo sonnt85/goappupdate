@@ -1,4 +1,4 @@
-package update
+package goappupdate
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/inconshreveable/go-update/internal/osext"
+	"github.com/sonnt85/goappupdate/internal/osext"
 )
 
 var (
