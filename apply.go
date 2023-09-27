@@ -8,7 +8,6 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 
@@ -83,7 +82,7 @@ func Apply(update io.Reader, opts Options) error {
 		}
 	} else {
 		// no patch to apply, go on through
-		if newBytes, err = ioutil.ReadAll(update); err != nil {
+		if newBytes, err = io.ReadAll(update); err != nil {
 			return err
 		}
 	}
