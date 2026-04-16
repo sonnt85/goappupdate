@@ -1,5 +1,7 @@
 # go-update: Build self-updating Go programs [![godoc reference](https://godoc.org/github.com/sonnt85/goappupdate?status.png)](https://godoc.org/github.com/sonnt85/goappupdate)
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/sonnt85/goappupdate.svg)](https://pkg.go.dev/github.com/sonnt85/goappupdate)
+
 Package update provides functionality to implement secure, self-updating Go programs (or other single-file targets)
 A program can update itself by replacing its executable file with a new version.
 
